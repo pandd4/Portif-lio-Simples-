@@ -1,0 +1,241 @@
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Amanda dos Santos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #800080, #000000);
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 2px 2px 4px #000000;
+    }
+
+    nav {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 10px 0;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #800080;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s, transform 0.5s;
+    }
+
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .projects, .skills, .curriculum, .github {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid #fff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 300px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h3 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1.1em;
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Portfólio de Amanda dos Santos</h1>
+</header>
+
+<nav>
+  <a href="#about">Sobre Mim</a>
+  <a href="#projects">Projetos</a>
+  <a href="#skills">Habilidades</a>
+  <a href="#curriculum">Currículo</a>
+  <a href="#github">Github</a>
+</nav>
+
+<section id="about">
+  <h2>Sobre Mim</h2>
+  <p>Olá, sou Amanda dos Santos, Graduada em Análise e Desenvolvimento de Sistemas na Universidade Cidade de São Paulo - UNICID, sou uma desenvolvedora apaixonada por tecnologia e inovação. Meu foco é criar soluções eficientes e inovadoras com programação, sempre buscando melhorar a experiência do usuário.</p>
+</section>
+
+<section id="projects">
+  <h2>Projetos de Programação</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Projeto 1: TODO LIST</h3>
+      <p>🚀✨ TO-DO-LIST (feito usando HTML5 CSS3 e JavaScript) Funcionalidades principais: ✅ Adicionar tarefas ✅ Listar tarefas ✅ Marcar como concluídas ✅ Remover tarefa 💻 Link do projeto: https://codepen.io/Amanda-Santos-the- construtor/caneta/jOXobEe</p>
+    </div>
+    <div class="card">
+      <h3>Projeto 2: Relógio Digital </h3>
+      <p>🚀✨ Relógio Digital Simples usando linguagem de programação html, css e javascript. 💻 Link do projeto: https://codepen.io/Amanda-Santos-the-builder/pen/VYZEJGB</p>
+    </div>
+     <div class="card">
+
+      <h3>Projeto 3: Registro de Despesas</h3>
+
+     <p> 🚀✨ Registro de despesas para uso no dia a dia, em compras, para organizar os gastos monetários etc. 💻 link do projeto: https://codepen.io/Amanda-Santos-the-builder/pen/abXeBGz</p>
+
+    </div>
+     <div class="card">
+
+      <h3>Projeto 4: Calculadora Simples</h3>
+
+      <p> 🚀✨Calculadora simples usando HTML, CSS e JAVASCRIPT, para colecarf na prática o minicurso ministrado pela série START-OneBitCode com tendo três aulas visualizando os pontos importantes e como funciona cada um deles.
+
+💻 Link do projeto: https://codepen.io/Amanda-Santos-the-builder/pen/JjeyPWE </p>
+    </div>
+     <div class="card">
+
+      <h3>Projeto 5: Gerador de Senhas</h3>
+
+      <p>🚀✨ Este projeto ampliou meu conhecimento em desenvolvimento web, permitindo-me aplicar conceitos básicos de JavaScript, HTML e CSS na criação de uma aplicação funcional.
+
+Foram usadas as linguagens de programação HTML5, CSS3, JAVASCRIPT.
+
+💻 LINK DE TESTE: https://codepen.io/Amanda-Santos-the-builder/pen/eYxqBWx </p>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Habilidades</h2>
+  <div class="skills">
+    <div class="card">
+      <h3>HTML</h3>
+      <p>Criação de páginas web estruturadas com cabeçalhos, parágrafos, links e formulários.</p>
+      </div>
+    <div class="card">
+      <h3>CSS</h3>
+      <p>Habilidades no desenvolvimento de layouts responsivos e atrativos.</p>
+    </div>
+    <div class="card">
+      <h3>JavaScript</h3>
+      <p>Domínio na criação de interatividade e funcionalidades dinâmicas nos projetos.</p>
+    </div>
+    <div class="card">
+      <h3>React</h3>
+      <p>Trabalho com React para criar interfaces ricas e escaláveis.</p>
+    </div>
+  </div>
+  <div class="card"> 
+    <h3>Design Gráfico</h3>
+    <p>Experiência com ferramentas como Adobe Photoshop, Illustrator e canva para criação de logotipos, layouts e materiais gráficos.</p>
+  </div> 
+  <div class="card"> 
+    <h3>Git e Github Básico</h3>
+    <p>Controle de versão e colaboração usando Git e GitHub para gerenciar projetos de código.</p>
+    </div>
+</section>
+
+<section id="curriculum">
+  <h2>Currículo</h2>
+  <div class="card">
+    <h3>Desenvolvedora/ Programadora </h3>
+    <p>Embora ainda não tenha experiência profissional formal, tenho me dedicado ao desenvolvimento de projetos pessoais e acadêmicos, onde apliquei minhas habilidades em programação e design. Criei sites e aplicativos utilizando HTML, CSS, JavaScript e Python, além de participar de cursos online,workshops e bootcamps para aprofundar meu conhecimento. Também contribuo com trabalhos voluntários, como o desenvolvimento de sites para ONGs locais, o que me permitiu aprimorar minhas habilidades técnicas e de comunicação.</p>
+    <p><a href="https://drive.google.com/file/d/1RbOlC9Dy6pav3Fi81Yt3iYdsct3vemCI/view?usp=drivesdk" target="_blank">Baixar Currículo</a></p>
+  </div>
+</section>
+
+<section id="github">
+  <h2>Github</h2>
+  <div class="card">
+    <h3>Meu GitHub</h3>
+    <p>Confira meus projetos de código aberto no meu perfil do GitHub.</p>
+    <p><a href="https://github.com/pandd4"
+          target="_blank">Visite meu GitHub</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Amanda dos Santos | <a href="mailto: amand4contato@gmail.com">Contate-me</a></p>
+</footer>
+
+<script>
+  // Função para exibir as seções quando o usuário rolar a página
+  window.addEventListener('scroll', function() {
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+      if (sectionTop < windowHeight - 100) {
+        section.classList.add('visible');
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
+
